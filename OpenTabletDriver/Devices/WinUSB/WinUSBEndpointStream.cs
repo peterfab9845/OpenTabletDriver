@@ -6,6 +6,7 @@ namespace OpenTabletDriver.Devices.WinUSB
 {
     public class WinUSBEndpointStream : IDeviceEndpointStream
     {
+        // TODO: entire class. interfaces -> pipes or just pipes from device? multiples?
         internal WinUSBEndpointStream(HidStream stream)
         {
             this.stream = stream;
